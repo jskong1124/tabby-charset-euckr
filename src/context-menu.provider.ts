@@ -32,7 +32,7 @@ export class CharsetContextMenu extends TabContextMenuItemProvider {
     }
     return [
       {
-        label: this.translate.instant("Charset"),
+        label: this.translate.instant("Charset (EUC-KR)"),
         type: "submenu",
         submenu: SupportedCharset.map((value) => ({
           type: "radio",
