@@ -1,20 +1,24 @@
 {
-  "name": "tabby-terminal-charset",
-  "description": "Change Tabby terminal output charset from utf-8 to gbk, gb2312 etc...",
+  "name": "tabby-charset-euckr",
+  "description": "Adds EUC-KR charset support to Tabby Terminal. Based on the great work from moemoechu/tabby-terminal-charset.",
   "module": "index.ts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "type": "commonjs",
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "repository": {
-    "url": "git+https://github.com/moemoechu/tabby-terminal-charset.git"
+    "url": "git+https://github.com/jskong1124/tabby-charset-euckr.git"
   },
   "author": {
-    "name": "moemoechu"
+    "name": "jskong1124"
   },
   "keywords": [
-    "tabby-plugin"
+    "tabby-plugin",
+    "euc-kr",
+    "korean",
+    "charset",
+    "encoding"
   ],
   "files": [
     "dist"
@@ -22,7 +26,6 @@
   "scripts": {
     "build": "rm -rf dist && webpack --progress --color",
     "watch": "webpack --progress --color --watch",
-    "deploy": "npm run build && rm -rf /mnt/hgfs/Tabby/data/plugins/node_modules/tabby-terminal-charset && mkdir /mnt/hgfs/Tabby/data/plugins/node_modules/tabby-terminal-charset && cp -r ./dist package.json /mnt/hgfs/Tabby/data/plugins/node_modules/tabby-terminal-charset/",
     "prepublishOnly": "npm run build",
     "copyDeps": "cp -rf /mnt/hgfs/Tabby/resources/builtin-plugins/* ./node_modules/"
   },

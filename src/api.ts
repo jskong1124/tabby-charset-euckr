@@ -13,27 +13,7 @@ export const SupportedCharset = [
   {
     name: "EUC-KR",
     charset: "euc-kr",
-  },
-  {
-    name: "GBK",
-    charset: "gbk",
-  },
-  {
-    name: "GB2312",
-    charset: "gb2312",
-  },
-  {
-    name: "GB18030",
-    charset: "gb18030",
-  },
-  {
-    name: "Big5",
-    charset: "big5",
-  },
-  {
-    name: "Shift_JIS",
-    charset: "Shift_JIS",
-  },
+  }
 ]
   .concat(
     Array.from({ length: 15 }, (_, index) => {

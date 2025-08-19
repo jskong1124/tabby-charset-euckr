@@ -4,13 +4,7 @@ export const translations: [string, PluginTranslations][] = [
   [
     "ko-KR",
     {
-      Charset: "문자 집합",
-    },
-  ],
-  [
-    "zh-CN",
-    {
-      Charset: "字符集",
+      "Charset (EUC-KR)": "문자 인코딩 (EUC-KR)",
     },
   ],
 ];
