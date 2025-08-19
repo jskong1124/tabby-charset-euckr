@@ -11,6 +11,10 @@ export const SupportedCharset = [
     charset: "utf-8",
   },
   {
+    name: "EUC-KR",
+    charset: "euc-kr",
+  },
+  {
     name: "GBK",
     charset: "gbk",
   },

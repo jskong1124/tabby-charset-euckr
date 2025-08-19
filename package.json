@@ -39,7 +39,7 @@
     "css-loader": "^6",
     "iconv-lite": "^0.6.3",
     "ngx-toastr": "^16",
-    "node-sass": "^9",
+    "sass": "^1.90.0",
     "sass-loader": "^13",
     "style-loader": "^3",
     "tabby-core": "latest",
