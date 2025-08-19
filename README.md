@@ -34,6 +34,7 @@ Tabby 설정-플러그인 에서 `tabby-charset-euckr` 검색 후 설치
 ---
 
 ## 📜 Changelog
+- **1.0.4**: 입력시 인코딩 깨짐 fix
 - **1.0.3**: README 변경
 - **1.0.2**: 메뉴 및 노출 항목 조정 
 - **1.0.1**: README 변경
