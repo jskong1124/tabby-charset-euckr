@@ -34,14 +34,15 @@ export default class CharsetMiddleware extends SessionMiddleware {
 
   feedFromTerminal(data: Buffer): void {
     const charset = this.tab.charset;
-    if (!charset || charset !== 'euc-kr') {
+    if (!charset || charset === "utf-8") {
       return super.feedFromTerminal(data);
     }
-    const inputString = data.toString('utf-8');
-    const encodedData = iconv.encode(inputString, 'euc-kr');
+
+    const encodedDataString = iconv.encode(data.toString(), charset);
+    const encodedData = Buffer.from(encodedDataString);
     super.feedFromTerminal(encodedData);
   }
-  
+
   close(): void {
     super.close();
   }
