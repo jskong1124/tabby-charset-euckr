@@ -6,7 +6,7 @@
   "typings": "dist/index.d.ts",
   "type": "commonjs",
   "license": "MIT",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": {
     "url": "git+https://github.com/jskong1124/tabby-charset-euckr.git"
   },
